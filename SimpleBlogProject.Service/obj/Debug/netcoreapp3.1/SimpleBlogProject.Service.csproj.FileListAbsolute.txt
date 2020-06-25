@@ -1,0 +1,8 @@
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Service\bin\Debug\netcoreapp3.1\SimpleBlogProject.Service.deps.json
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Service\bin\Debug\netcoreapp3.1\SimpleBlogProject.Service.dll
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Service\obj\Debug\netcoreapp3.1\SimpleBlogProject.Service.csprojAssemblyReference.cache
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Service\obj\Debug\netcoreapp3.1\SimpleBlogProject.Service.AssemblyInfoInputs.cache
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Service\obj\Debug\netcoreapp3.1\SimpleBlogProject.Service.AssemblyInfo.cs
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Service\bin\Debug\netcoreapp3.1\SimpleBlogProject.Service.pdb
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Service\obj\Debug\netcoreapp3.1\SimpleBlogProject.Service.dll
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Service\obj\Debug\netcoreapp3.1\SimpleBlogProject.Service.pdb

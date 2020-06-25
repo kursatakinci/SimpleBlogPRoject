@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleBlogProject.Core\SimpleBlogProject.Core.csproj" />
+    <ProjectReference Include="..\SimpleBlogProject.Service\SimpleBlogProject.Service.csproj" />
+  </ItemGroup>
+
 </Project>
