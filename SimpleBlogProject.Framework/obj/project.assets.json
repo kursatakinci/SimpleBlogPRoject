@@ -1034,6 +1034,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "SimpleBlogProject.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SimpleBlogProject.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleBlogProject.Contract.dll": {}
+        }
+      },
       "SimpleBlogProject.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1051,7 +1061,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Autofac": "5.2.0"
+          "Autofac": "5.2.0",
+          "SimpleBlogProject.Contract": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SimpleBlogProject.Service.dll": {}
@@ -3882,6 +3893,11 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "SimpleBlogProject.Contract/1.0.0": {
+      "type": "project",
+      "path": "../SimpleBlogProject.Contract/SimpleBlogProject.Contract.csproj",
+      "msbuildProject": "../SimpleBlogProject.Contract/SimpleBlogProject.Contract.csproj"
     },
     "SimpleBlogProject.Core/1.0.0": {
       "type": "project",

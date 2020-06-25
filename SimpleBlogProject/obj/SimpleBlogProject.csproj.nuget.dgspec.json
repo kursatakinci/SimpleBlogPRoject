@@ -217,7 +217,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj": {
+                "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -2,49 +2,48 @@
 using SimpleBlogProject.Framework.Controllers;
 using SimpleBlogProject.Service.Blog;
 using System.Collections.Generic;
-using Autofac;
-using System.Linq;
+using SimpleBlogProject.Contract;
 
 namespace SimpleBlogProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ArticlesController : AuthenticatedApiController
+    public class BlogsController : AuthenticatedApiController
     {
         protected readonly IBlogService _blogService;
 
-        public ArticlesController(IBlogService blogService) : base()
+        public BlogsController(IBlogService blogService) : base()
         {
             _blogService = blogService;
         }
 
-        // GET api/values
+        // GET api/blogs
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<List<BlogListItemDto>> Get()
         {
-            return new string[] { "value 1", "value 2" };
+            return _blogService.GetBlogList();
         }
 
-        // GET api/values/5
+        // GET api/blogs/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<BlogDto> Get(int id)
         {
-            return "value 1";
+            return _blogService.GetBlogInfoById(id);
         }
 
-        // POST api/values
+        // POST api/blogs
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT api/values/5
+        // PUT api/blogs/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE api/values/5
+        // DELETE api/blogs/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {

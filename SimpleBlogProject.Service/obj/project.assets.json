@@ -10,6 +10,16 @@
         "runtime": {
           "lib/netstandard2.1/Autofac.dll": {}
         }
+      },
+      "SimpleBlogProject.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SimpleBlogProject.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleBlogProject.Contract.dll": {}
+        }
       }
     }
   },
@@ -34,11 +44,17 @@
         "lib/netstandard2.1/Autofac.pdb",
         "lib/netstandard2.1/Autofac.xml"
       ]
+    },
+    "SimpleBlogProject.Contract/1.0.0": {
+      "type": "project",
+      "path": "../SimpleBlogProject.Contract/SimpleBlogProject.Contract.csproj",
+      "msbuildProject": "../SimpleBlogProject.Contract/SimpleBlogProject.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Autofac >= 5.2.0"
+      "Autofac >= 5.2.0",
+      "SimpleBlogProject.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -70,7 +86,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj": {
+              "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

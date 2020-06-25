@@ -1,10 +1,11 @@
-﻿using System;
+﻿using SimpleBlogProject.Contract;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SimpleBlogProject.Service.Blog
 {
     public interface IBlogService
     {
+        List<BlogListItemDto> GetBlogList();
+        BlogDto GetBlogInfoById(int id);
     }
 }
