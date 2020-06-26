@@ -19,14 +19,8 @@ namespace SimpleBlogProject.Service.Blog
         {
             var blogList = _unitOfWork.Blogs.Get();
 
-            if (blogList.Any())
-            {
-                return blogList.Select(bl => new BlogListItemDto() { BlogCreatedOnUtc = bl.CreatedOnUtc, BlogId = bl.Id, BlogName = bl.Name, BlogShortDesc = bl.ShortDescription }).ToList();
-            }
-            else
-            {
-                return new List<BlogListItemDto>() { new BlogListItemDto { BlogId = 1, BlogCreatedOnUtc = DateTime.UtcNow.AddHours(-2), BlogName = "DenemeBlog1", BlogShortDesc = "DenemeBlog1 ShortDesc" }, new BlogListItemDto { BlogId = 2, BlogCreatedOnUtc = DateTime.UtcNow.AddHours(-1), BlogName = "DenemeBlog2", BlogShortDesc = "DenemeBlog2 ShortDesc" } };
-            }
+            //TODO: add automapper in project
+            return blogList.Select(bl => new BlogListItemDto() { BlogCreatedOnUtc = bl.CreatedOnUtc, BlogId = bl.Id, BlogName = bl.Name, BlogShortDesc = bl.ShortDescription }).ToList();
         }
 
         public BlogDto GetBlogInfoById(int id)
