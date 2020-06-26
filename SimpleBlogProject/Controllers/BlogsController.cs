@@ -3,10 +3,11 @@ using SimpleBlogProject.Framework.Controllers;
 using SimpleBlogProject.Service.Blog;
 using System.Collections.Generic;
 using SimpleBlogProject.Contract;
+using Newtonsoft.Json;
 
 namespace SimpleBlogProject.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class BlogsController : AuthenticatedApiController
     {
@@ -18,6 +19,7 @@ namespace SimpleBlogProject.Controllers
         }
 
         // GET api/blogs
+        //blog listesi
         [HttpGet]
         public ActionResult<List<BlogListItemDto>> Get()
         {
@@ -25,6 +27,7 @@ namespace SimpleBlogProject.Controllers
         }
 
         // GET api/blogs/5
+        //tek blog
         [HttpGet("{id}")]
         public ActionResult<BlogDto> Get(int id)
         {
@@ -32,21 +35,54 @@ namespace SimpleBlogProject.Controllers
         }
 
         // POST api/blogs
+        //bir blogun 
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult<List<BlogListItemDto>> Search([FromBody] string value)
         {
+            return _blogService.GetBlogList();
         }
 
         // PUT api/blogs/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public ActionResult<bool> Put(int id, [FromBody] string value)
         {
+            var blog = _blogService.GetBlogInfoById(id);
+
+            if (blog != null)
+            {
+                var blogInfo = JsonConvert.DeserializeObject<BlogDto>(value);
+
+                blog.BlogBody = blogInfo.BlogBody;
+                blog.BlogId = id;
+                blog.BlogName = blogInfo.BlogName;
+                blog.BlogShortDesc = blogInfo.BlogShortDesc;
+
+                _blogService.GetBlogList();
+
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         // DELETE api/blogs/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult<bool> Delete(int id)
         {
+            var blog = _blogService.GetBlogInfoById(id);
+
+            if (blog != null)
+            {
+                _blogService.GetBlogList();
+
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

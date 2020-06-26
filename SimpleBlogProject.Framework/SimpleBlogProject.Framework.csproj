@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleBlogProject.Core\SimpleBlogProject.Core.csproj" />
+    <ProjectReference Include="..\SimpleBlogProject.Repository\SimpleBlogProject.Repository.csproj" />
     <ProjectReference Include="..\SimpleBlogProject.Service\SimpleBlogProject.Service.csproj" />
   </ItemGroup>
 

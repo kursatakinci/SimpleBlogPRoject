@@ -4,11 +4,13 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SimpleBlogProject.Core.Elements;
 using SimpleBlogProject.Core.Helper.TypeHelper;
+using SimpleBlogProject.Repository;
 
 namespace SimpleBlogProject
 {
@@ -23,9 +25,12 @@ namespace SimpleBlogProject
         public ILifetimeScope AutofacContainer { get; private set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        [Obsolete]
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();         
+            services.AddControllers();
+
+            services.AddDbContext<SimpleBlogProjectDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), opt => opt.UseRowNumberForPaging()));
         }
 
         public void ConfigureContainer(ContainerBuilder builder)

@@ -13,3 +13,5 @@ D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framewo
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\obj\Debug\netcoreapp3.1\SimpleBlogProject.Framework.csproj.CopyComplete
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\obj\Debug\netcoreapp3.1\SimpleBlogProject.Framework.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\obj\Debug\netcoreapp3.1\SimpleBlogProject.Framework.pdb
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Repository.dll
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Repository.pdb
