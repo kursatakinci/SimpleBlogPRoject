@@ -88,7 +88,6 @@ D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Deb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.MvcApplicationPartsAssemblyInfo.cache
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.pdb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
@@ -101,4 +100,6 @@ D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Deb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Debug\netcoreapp3.1\SimpleBlogProject.Framework.pdb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Debug\netcoreapp3.1\SimpleBlogProject.Service.pdb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Debug\netcoreapp3.1\SimpleBlogProject.Core.pdb
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.MvcApplicationPartsAssemblyInfo.cs
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.MvcApplicationPartsAssemblyInfo.cache
