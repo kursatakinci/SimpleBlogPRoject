@@ -8,12 +8,12 @@
 *.dll
 *.exe
 *.pdb
-/build/
-/obj/
-/bin/
+*/build/
+*/obj/
+*/bin/
 *.suo
 *.user
-_ReSharper.*/
+*_ReSharper.*/
 *.sdf
 *.opensdf
 *.tlog
