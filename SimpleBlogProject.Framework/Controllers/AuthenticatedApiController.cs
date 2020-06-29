@@ -1,10 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SimpleBlogProject.Core;
+using SimpleBlogProject.Framework.Filters;
 
 namespace SimpleBlogProject.Framework.Controllers
 {
-    public class AuthenticatedApiController : ControllerBase
+    [AuthenticationFilter]
+    public class AuthenticatedApiController : BasicWorkContextedApiController
     {
-        public AuthenticatedApiController()
+        public AuthenticatedApiController(IWorkContext workContext) : base(workContext)
         {
 
         }
