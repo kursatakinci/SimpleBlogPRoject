@@ -130,6 +130,8 @@ D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\bin\Deb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.csprojAssemblyReference.cache
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\staticwebassets\SimpleBlogProject.StaticWebAssets.Manifest.cache
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\staticwebassets\SimpleBlogProject.StaticWebAssets.xml
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.MvcApplicationPartsAssemblyInfo.cs
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.MvcApplicationPartsAssemblyInfo.cache
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.AssemblyInfoInputs.cache
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.AssemblyInfo.cs
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject\obj\Debug\netcoreapp3.1\SimpleBlogProject.RazorTargetAssemblyInfo.cache

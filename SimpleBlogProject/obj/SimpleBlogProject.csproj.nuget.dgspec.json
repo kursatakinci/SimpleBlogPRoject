@@ -108,6 +108,10 @@
               "target": "Package",
               "version": "[3.1.5, )"
             },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -337,6 +341,10 @@
               "target": "Package",
               "version": "[3.1.5, )"
             },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -430,6 +438,10 @@
               "version": "[3.1.5, )"
             },
             "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
               "version": "[3.1.5, )"
             },
