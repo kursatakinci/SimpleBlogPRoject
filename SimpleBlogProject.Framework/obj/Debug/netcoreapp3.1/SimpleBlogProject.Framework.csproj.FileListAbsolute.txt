@@ -3,8 +3,10 @@ D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framewo
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Framework.pdb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Contract.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Core.dll
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Repository.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Service.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Core.pdb
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Repository.pdb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Service.pdb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Contract.pdb
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\obj\Debug\netcoreapp3.1\SimpleBlogProject.Framework.csprojAssemblyReference.cache
@@ -13,5 +15,3 @@ D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framewo
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\obj\Debug\netcoreapp3.1\SimpleBlogProject.Framework.csproj.CopyComplete
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\obj\Debug\netcoreapp3.1\SimpleBlogProject.Framework.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\obj\Debug\netcoreapp3.1\SimpleBlogProject.Framework.pdb
-D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Repository.dll
-D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Framework\bin\Debug\netcoreapp3.1\SimpleBlogProject.Repository.pdb
