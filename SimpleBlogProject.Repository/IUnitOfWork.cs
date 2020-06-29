@@ -9,7 +9,12 @@ namespace SimpleBlogProject.Repository
     public interface IUnitOfWork
     {
         IRepository<Blog> Blogs { get; }
+        IRepository<BlogPost> BlogPosts { get; }
+        IRepository<CategoryToBlogPost> CategoryToBlogPosts { get; }
+        IRepository<Category> Categories { get; }
+        IRepository<Comment> Comments { get; }
         IRepository<UserInfo> UserInfos { get; }
+        IRepository<Blogger> Bloggers { get; }
         void Commit();
     }
 }

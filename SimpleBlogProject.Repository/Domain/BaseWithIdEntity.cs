@@ -4,7 +4,8 @@ using System.Text;
 
 namespace SimpleBlogProject.Repository.Domain
 {
-    public abstract class BaseEntity
+    public abstract class BaseWithIdEntity : BaseEntity
     {
+        public int Id { get; set; }
     }
 }
