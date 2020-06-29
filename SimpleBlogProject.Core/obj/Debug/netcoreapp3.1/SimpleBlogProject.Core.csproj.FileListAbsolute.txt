@@ -1,8 +1,11 @@
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\bin\Debug\netcoreapp3.1\SimpleBlogProject.Core.deps.json
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\bin\Debug\netcoreapp3.1\SimpleBlogProject.Core.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\bin\Debug\netcoreapp3.1\SimpleBlogProject.Core.pdb
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\bin\Debug\netcoreapp3.1\SimpleBlogProject.Contract.dll
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\bin\Debug\netcoreapp3.1\SimpleBlogProject.Contract.pdb
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\obj\Debug\netcoreapp3.1\SimpleBlogProject.Core.csprojAssemblyReference.cache
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\obj\Debug\netcoreapp3.1\SimpleBlogProject.Core.AssemblyInfoInputs.cache
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\obj\Debug\netcoreapp3.1\SimpleBlogProject.Core.AssemblyInfo.cs
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\obj\Debug\netcoreapp3.1\SimpleBlogProject.Core.csproj.CopyComplete
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\obj\Debug\netcoreapp3.1\SimpleBlogProject.Core.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\obj\Debug\netcoreapp3.1\SimpleBlogProject.Core.pdb
-D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Core\obj\Debug\netcoreapp3.1\SimpleBlogProject.Core.csprojAssemblyReference.cache

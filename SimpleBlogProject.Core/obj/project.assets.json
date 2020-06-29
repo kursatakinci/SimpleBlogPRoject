@@ -11,6 +11,27 @@
           "lib/netstandard2.1/Autofac.dll": {}
         }
       },
+      "Microsoft.Extensions.Caching.Abstractions/3.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.5"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
@@ -18,6 +39,16 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SimpleBlogProject.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SimpleBlogProject.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleBlogProject.Contract.dll": {}
         }
       }
     }
@@ -42,6 +73,38 @@
         "lib/netstandard2.1/Autofac.dll",
         "lib/netstandard2.1/Autofac.pdb",
         "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Microsoft.Extensions.Caching.Abstractions/3.1.5": {
+      "sha512": "1HWdvlBNI4laVkx5oglv3Oaz5s8dO/dpkOep8FLv7+QAK2rm3ofBVv49aiDnijnwO+ZPJ/0iNctZWP0W2S07Rw==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.abstractions/3.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "microsoft.extensions.caching.abstractions.3.1.5.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.1.5": {
+      "sha512": "6bLdjSAQix82oP2tsuX9MM2yjgUFFOkSZYyRSKoUULilw2cg0Y0H+dnugwYlfj8Jd7yjd/+QSdNBqEyYhTYv0w==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.1.5.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
       ]
     },
     "Newtonsoft.Json/12.0.3": {
@@ -74,12 +137,19 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "SimpleBlogProject.Contract/1.0.0": {
+      "type": "project",
+      "path": "../SimpleBlogProject.Contract/SimpleBlogProject.Contract.csproj",
+      "msbuildProject": "../SimpleBlogProject.Contract/SimpleBlogProject.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Autofac >= 5.2.0",
-      "Newtonsoft.Json >= 12.0.3"
+      "Microsoft.Extensions.Caching.Abstractions >= 3.1.5",
+      "Newtonsoft.Json >= 12.0.3",
+      "SimpleBlogProject.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -111,7 +181,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj": {
+              "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -126,6 +200,10 @@
           "Autofac": {
             "target": "Package",
             "version": "[5.2.0, )"
+          },
+          "Microsoft.Extensions.Caching.Abstractions": {
+            "target": "Package",
+            "version": "[3.1.5, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
