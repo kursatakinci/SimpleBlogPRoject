@@ -75,6 +75,7 @@ namespace SimpleBlogProject.Service.Blog
         {
             var blog = new Repository.Domain.Blog.Blog() { CreatedOnUtc = DateTime.UtcNow, Name = blogDto.BlogName, ShortDescription = blogDto.BlogShortDesc, BloggerId = _workContext.WorkingBlogger.BloggerId };
             _unitOfWork.Blogs.Insert(blog);
+            _unitOfWork.Commit();
             _cacheManager.RemoveByPattern(BlogPatternKey);
         }
 

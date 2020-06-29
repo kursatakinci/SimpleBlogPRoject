@@ -109,6 +109,7 @@ namespace SimpleBlogProject.Service.Blog
         {
             var comment = new Repository.Domain.Blog.Comment() { Approved = blogPostCommentDto.Approved, BlogPostId = blogPostCommentDto.BlogPostId, CommentBody = blogPostCommentDto.Comment, CommenterEmail = blogPostCommentDto.CommenterEmail, CommenterName = blogPostCommentDto.CommenterFullName, CreatedOnUtc = DateTime.UtcNow };
             _unitOfWork.Comments.Insert(comment);
+            _unitOfWork.Commit();
             _cacheManager.RemoveByPattern(BlogpostPatternKey);
         }
 

@@ -19,6 +19,7 @@ namespace SimpleBlogProject.Service.Blogger
         {
             var blogger = new Repository.Domain.Blog.Blogger() { BloggerName = bloggerDto.BloggerName, CreatedOnUtc = DateTime.UtcNow, Email = bloggerDto.BloggerEmail };
             _unitOfWork.Bloggers.Insert(blogger);
+            _unitOfWork.Commit();
         }
     }
 }

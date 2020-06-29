@@ -1300,6 +1300,7 @@
         "dependencies": {
           "Autofac": "5.2.0",
           "Microsoft.Extensions.Caching.Abstractions": "3.1.5",
+          "Microsoft.Extensions.Caching.Memory": "3.1.5",
           "Newtonsoft.Json": "12.0.3",
           "SimpleBlogProject.Contract": "1.0.0"
         },
@@ -5041,6 +5042,7 @@
       "Autofac >= 5.2.0",
       "Autofac.Extensions.DependencyInjection >= 6.0.0",
       "Microsoft.Extensions.Caching.Abstractions >= 3.1.5",
+      "Microsoft.Extensions.Caching.Memory >= 3.1.5",
       "Newtonsoft.Json >= 12.0.3",
       "SimpleBlogProject.Contract >= 1.0.0",
       "SimpleBlogProject.Core >= 1.0.0",
@@ -5107,6 +5109,10 @@
             "version": "[6.0.0, )"
           },
           "Microsoft.Extensions.Caching.Abstractions": {
+            "target": "Package",
+            "version": "[3.1.5, )"
+          },
+          "Microsoft.Extensions.Caching.Memory": {
             "target": "Package",
             "version": "[3.1.5, )"
           },
