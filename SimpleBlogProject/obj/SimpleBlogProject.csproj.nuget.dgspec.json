@@ -84,7 +84,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj": {
+                "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -99,6 +103,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -299,6 +307,9 @@
               "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj": {
                 "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj"
               },
+              "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Core\\SimpleBlogProject.Core.csproj": {
+                "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Core\\SimpleBlogProject.Core.csproj"
+              },
               "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Repository\\SimpleBlogProject.Repository.csproj": {
                 "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Repository\\SimpleBlogProject.Repository.csproj"
               }
@@ -321,6 +332,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -411,6 +426,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
               "target": "Package",
               "version": "[3.1.5, )"
             },

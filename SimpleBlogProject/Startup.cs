@@ -28,7 +28,9 @@ namespace SimpleBlogProject
         [Obsolete]
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers(); 
+            
+            services.AddHttpContextAccessor();
 
             services.AddDbContext<SimpleBlogProjectDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), opt => opt.UseRowNumberForPaging()));
         }
