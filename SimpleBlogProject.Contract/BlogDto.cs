@@ -7,7 +7,6 @@ namespace SimpleBlogProject.Contract
         public int BlogId { get; set; }
         public string BlogName { get; set; }
         public string BlogShortDesc { get; set; }
-        public string BlogBody { get; set; }
         public DateTime BlogCreatedOnUtc { get; set; }
     }
 }
