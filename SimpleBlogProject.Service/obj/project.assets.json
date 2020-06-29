@@ -1294,6 +1294,22 @@
           "bin/placeholder/SimpleBlogProject.Contract.dll": {}
         }
       },
+      "SimpleBlogProject.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Autofac": "5.2.0",
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.5",
+          "Newtonsoft.Json": "12.0.3",
+          "SimpleBlogProject.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SimpleBlogProject.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleBlogProject.Core.dll": {}
+        }
+      },
       "SimpleBlogProject.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5009,6 +5025,11 @@
       "path": "../SimpleBlogProject.Contract/SimpleBlogProject.Contract.csproj",
       "msbuildProject": "../SimpleBlogProject.Contract/SimpleBlogProject.Contract.csproj"
     },
+    "SimpleBlogProject.Core/1.0.0": {
+      "type": "project",
+      "path": "../SimpleBlogProject.Core/SimpleBlogProject.Core.csproj",
+      "msbuildProject": "../SimpleBlogProject.Core/SimpleBlogProject.Core.csproj"
+    },
     "SimpleBlogProject.Repository/1.0.0": {
       "type": "project",
       "path": "../SimpleBlogProject.Repository/SimpleBlogProject.Repository.csproj",
@@ -5019,8 +5040,10 @@
     ".NETCoreApp,Version=v3.1": [
       "Autofac >= 5.2.0",
       "Autofac.Extensions.DependencyInjection >= 6.0.0",
+      "Microsoft.Extensions.Caching.Abstractions >= 3.1.5",
       "Newtonsoft.Json >= 12.0.3",
       "SimpleBlogProject.Contract >= 1.0.0",
+      "SimpleBlogProject.Core >= 1.0.0",
       "SimpleBlogProject.Repository >= 1.0.0"
     ]
   },
@@ -5057,6 +5080,9 @@
             "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj": {
               "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Contract\\SimpleBlogProject.Contract.csproj"
             },
+            "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Core\\SimpleBlogProject.Core.csproj": {
+              "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Core\\SimpleBlogProject.Core.csproj"
+            },
             "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Repository\\SimpleBlogProject.Repository.csproj": {
               "projectPath": "D:\\VisualStudioProjects\\GitProjects\\_SimpleBlogProject\\SimpleBlogProject.Repository\\SimpleBlogProject.Repository.csproj"
             }
@@ -5079,6 +5105,10 @@
           "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "Microsoft.Extensions.Caching.Abstractions": {
+            "target": "Package",
+            "version": "[3.1.5, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

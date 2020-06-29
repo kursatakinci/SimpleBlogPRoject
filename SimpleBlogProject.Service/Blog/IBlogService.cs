@@ -7,5 +7,9 @@ namespace SimpleBlogProject.Service.Blog
     {
         List<BlogListItemDto> GetBlogList();
         BlogDto GetBlogInfoById(int id);
+        List<BlogListItemDto> GetBlogListBySearchTerm(string term);
+        void InsertBlog(BlogDto blogDto);
+        void UpdateBlog(BlogDto blogDto);
+        void DeleteBlog(int blogId);
     }
 }
