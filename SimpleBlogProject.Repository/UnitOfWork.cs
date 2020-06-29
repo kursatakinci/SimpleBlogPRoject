@@ -79,7 +79,7 @@ namespace SimpleBlogProject.Repository
             get
             {
                 return _bloggers ??
-                    (_bloggers = new BaseRepository<Blogger>(_bloggers));
+                    (_bloggers = new BaseRepository<Blogger>(_dbContext));
             }
         }
 
