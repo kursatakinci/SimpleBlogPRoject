@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Microsoft.Extensions.Caching.Memory;
 using SimpleBlogProject.Core;
 using SimpleBlogProject.Core.Caching;
 using SimpleBlogProject.Core.Elements;
@@ -19,12 +20,13 @@ namespace SimpleBlogProject.Framework.Dependencies
 
         public void Register(ContainerBuilder builder)
         {
+            builder.RegisterType<MemoryCache>().As<IMemoryCache>().SingleInstance();
             builder.RegisterType<MemoryCacheManager>().As<ICacheManager>().SingleInstance();
-            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().SingleInstance();
-            builder.RegisterType<BlogService>().As<IBlogService>().SingleInstance();
-            builder.RegisterType<BlogPostService>().As<IBlogPostService>().SingleInstance();
-            builder.RegisterType<UserInfoService>().As<IUserInfoService>().SingleInstance();
-            builder.RegisterType<BloggerService>().As<IBloggerService>().SingleInstance();
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
+            builder.RegisterType<BlogService>().As<IBlogService>().InstancePerLifetimeScope();
+            builder.RegisterType<BlogPostService>().As<IBlogPostService>().InstancePerLifetimeScope();
+            builder.RegisterType<UserInfoService>().As<IUserInfoService>().InstancePerLifetimeScope();
+            builder.RegisterType<BloggerService>().As<IBloggerService>().InstancePerLifetimeScope();
             builder.RegisterType<WorkContext>().As<IWorkContext>().InstancePerLifetimeScope();
         }
     }
