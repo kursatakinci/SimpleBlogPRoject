@@ -1,10 +1,9 @@
-﻿using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Primitives;
-using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
 using System.Threading;
+using System.Collections.Concurrent;
+using Microsoft.Extensions.Primitives;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace SimpleBlogProject.Core.Caching
 {

@@ -1,8 +1,8 @@
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Contract\bin\Debug\netcoreapp3.1\SimpleBlogProject.Contract.deps.json
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Contract\bin\Debug\netcoreapp3.1\SimpleBlogProject.Contract.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Contract\bin\Debug\netcoreapp3.1\SimpleBlogProject.Contract.pdb
+D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Contract\obj\Debug\netcoreapp3.1\SimpleBlogProject.Contract.csprojAssemblyReference.cache
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Contract\obj\Debug\netcoreapp3.1\SimpleBlogProject.Contract.AssemblyInfoInputs.cache
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Contract\obj\Debug\netcoreapp3.1\SimpleBlogProject.Contract.AssemblyInfo.cs
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Contract\obj\Debug\netcoreapp3.1\SimpleBlogProject.Contract.dll
 D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Contract\obj\Debug\netcoreapp3.1\SimpleBlogProject.Contract.pdb
-D:\VisualStudioProjects\GitProjects\_SimpleBlogProject\SimpleBlogProject.Contract\obj\Debug\netcoreapp3.1\SimpleBlogProject.Contract.csprojAssemblyReference.cache
